@@ -10,6 +10,7 @@ La clase `Crono` ofrece las siguientes funcionalidades:
 - **Pausar el cronómetro (`pause`)**: Detiene el cronómetro temporalmente, registrando el tiempo pausado.
 - **Reiniciar el cronómetro (`restart`)**: Restablece el cronómetro a su estado inicial.
 - **Obtener el tiempo (`get_time`)**: Devuelve el tiempo transcurrido en segundos desde que se inició el cronómetro, teniendo en cuenta el tiempo pausado.
+- **Obtener el tiempo (`get_time_in_HHMMSSms`)**: Devuelve el tiempo transcurrido en una cadena de horas, minutos, segundos y milisegundos (00:00:00.000) desde que se inició el cronómetro, teniendo en cuenta el tiempo pausado.
 
 ## Uso
 
